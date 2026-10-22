@@ -14,7 +14,7 @@ Construction et modélisation en Python de la courbe des taux de l'État maurita
 
 ## Données
 
-Fichier de la BCM [`data/Marche_Monetaire.xlsx`](data), onglet « Marché monétaire » : 196 relevés hebdomadaires du 06/01/2022 au 12/02/2026 avec le taux directeur, les facilités de dépôt et de prêt, et les taux d'adjudication de 11 maturités de titres du Trésor (bons à 4, 13, 26 et 52 semaines ; obligations à 2, 3, 4, 5, 8, 9 et 10 ans).
+Source : Banque Centrale de Mauritanie (BCM), statistiques du marché monétaire ([bcm.mr](https://bcm.mr)). Fichier [`data/Marche_Monetaire.xlsx`](data), onglet « Marché monétaire » : 196 relevés hebdomadaires du 06/01/2022 au 12/02/2026 avec le taux directeur, les facilités de dépôt et de prêt, et les taux d'adjudication de 11 maturités de titres du Trésor (bons à 4, 13, 26 et 52 semaines ; obligations à 2, 3, 4, 5, 8, 9 et 10 ans).
 
 Points d'attention, traités dans le notebook : les maturités apparaissent progressivement (courbe complète à 11 points sur 25 semaines seulement), les taux sont reportés d'une semaine à l'autre jusqu'à la prochaine adjudication, et le calendrier a quelques trous. Aucune valeur n'est complétée ni supprimée.
 
@@ -51,6 +51,13 @@ Points d'attention, traités dans le notebook : les maturités apparaissent prog
 pip install -r requirements.txt
 jupyter notebook courbe_taux_MRU_modelisation.ipynb
 ```
+
+## Sources
+
+- Banque Centrale de Mauritanie (BCM), statistiques du marché monétaire : taux directeur, facilités permanentes et résultats des adjudications de bons et d'obligations du Trésor. [bcm.mr](https://bcm.mr)
+- Nelson, C. R. et Siegel, A. F. (1987), *Parsimonious Modeling of Yield Curves*, Journal of Business, 60(4).
+- Diebold, F. X. et Li, C. (2006), *Forecasting the Term Structure of Government Bond Yields*, Journal of Econometrics, 130(2).
+- Vasicek, O. (1977), *An Equilibrium Characterization of the Term Structure*, Journal of Financial Economics, 5(2).
 
 ## Limites
 
