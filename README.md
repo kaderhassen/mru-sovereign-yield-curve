@@ -2,7 +2,7 @@
 
 Construction et modélisation en Python de la courbe des taux de l'État mauritanien à partir des taux d'adjudication publiés par la Banque Centrale de Mauritanie (BCM), de 2022 à 2026 : interpolation linéaire, spline cubique et Nelson-Siegel, taux zéro-coupon et forwards, analyse en composantes principales, valorisation et risque de taux d'un portefeuille de titres publics, modèle de Vasicek, simulation Monte Carlo et VaR.
 
-**Auteur :** Kader, MSc Financial Markets, Trading & Risk Management (INSEEC)
+**Auteur :** Abdel Kader Elhassen
 
 ## Lire le projet
 
